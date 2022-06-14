@@ -1,0 +1,70 @@
+.card{
+  margin-top:1rem;
+  background-color: rgb(0, 0, 0);
+  align-items: center;
+  row-gap: 10px;
+  column-gap: 12%;
+}
+.card{
+	max-width: 100%;
+}
+.card-header{
+  background-color: rgb(64, 115, 242);
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px;
+	position: center;
+	width: 100%
+
+}
+
+.badge{
+  color: white;
+  padding:12px 10px;
+  margin: 0 4px;
+  font-weight: 300;
+  background-color: rgb(24, 59, 236)
+}
+
+
+.badge-header{
+  width: 100%;
+  font-weight: 900;
+  font-size:1rem;
+  text-transform: uppercase;
+	border-radius: 10px;
+	display-align: center;
+
+
+
+}
+
+.list-group{
+  margin: 5px 0px 5px 8px;
+  border-radius: 10px
+}
+
+.list-group-item{
+  background-color: rgb(18, 18, 94);
+  padding:5px;
+  color: white;
+  font-size: .9rem;
+  width: 100%;
+}
+.btn{
+    padding-left: 35px;
+    padding-right: 35px;
+    border: 2px;
+    font-family: zedya;
+    font-size: 15px;
+    color: black;
+    background-color: #fcdc1f;
+    font-weight: 700;
+    font-style: italic;
+    
+}
+.btn:hover{
+    color: rgb(255, 255, 255);
+    animation: normal;
+}
